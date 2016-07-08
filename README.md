@@ -1,4 +1,6 @@
 # RPi Gpio Controller
+![GitHub Logo](/images/logo.png)
+
 Project description:
 
  * Get the information of your Raspberry Pi.
@@ -51,12 +53,14 @@ Install git and clone the repository
 ```
 sudo apt-get install git
 cd /var/www/html
-git clone https://github.com/danny270793/RPiGpioController.git
+sudo git clone https://github.com/danny270793/RPiGpioController.git
 ```
 
 ## Configure credentials
-Change the access credentials from the file login.php into the php folder
-
+Change the access credentials
+```
+sudo nano php/login.php
+```
 ```php
 <?php
 	$user="admin";
@@ -69,3 +73,9 @@ Change the access credentials from the file login.php into the php folder
 * See your Raspberry Pi information.
 * Shutdown and reboot your Raspberry remotely
 * Control the GPIO pins.
+
+## Follow me
+* [Facebook](https://www.facebook.com/danny.vaca.9655)
+* [Instagram](https://www.instagram.com/danny27071993/)
+* [Youtube](https://www.youtube.com/channel/UC5MAQWU2s2VESTXaUo-ysgg)
+* [Github](https://github.com/danny270793/)
