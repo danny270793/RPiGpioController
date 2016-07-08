@@ -46,10 +46,16 @@ And restart the server
 sudo /etc/init.d/apache2 restart
 ```
 
+## Download code
+Install git and clone the repository
+```
+sudo apt-get install git
+cd /var/www/html
+git clone https://github.com/danny270793/RPiGpioController.git
+```
+
 ## Configure credentials
-Download this repository to the directory /var/www/html/RPiGpioController
-## Configure credentials
-Change in the code the access credentials
+Change the access credentials from the file login.php into the php folder
 
 ```php
 <?php
