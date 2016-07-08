@@ -1,6 +1,5 @@
 <?php
-	$user="admin";
-	$password="admin";
+	require_once("info.php");
 	$isset_user=isset($_POST["app_user"]);
 	$isset_password=isset($_POST["app_password"]);
 	$response=array();
