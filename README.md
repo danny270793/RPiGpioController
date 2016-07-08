@@ -1,5 +1,5 @@
 # RPi Gpio Controller
-![GitHub Logo](/images/logo.png)
+![RPi Gpio Controller logo](https://github.com/danny270793/RPiGpioController/blob/master/images/raspberry.png)
 
 Project description:
 
