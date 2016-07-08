@@ -64,7 +64,7 @@ sudo nano php/login.php
 <?php
 	$user="admin";
 	$password="admin";
-    ...
+?>
 ```
 ## Test the Android application
 * Download [RPi Gpio Controller](https://play.google.com/store/apps/details?id=com.danny270793.rpigpiocontroller) from the google play store.
