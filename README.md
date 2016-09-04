@@ -59,7 +59,7 @@ sudo git clone https://github.com/danny270793/RPiGpioController.git
 Change the access credentials
 ```
 cd RPiGpioController
-sudo nano php/login.php
+sudo nano php/info.php
 ```
 ```php
 <?php
