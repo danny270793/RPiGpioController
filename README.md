@@ -82,5 +82,5 @@ sudo nano php/info.php
 * [Github](https://github.com/danny270793/)
 
 ## Version
-RPiGpioController version 2.4.9 
+RPiGpioController version 2.4.9<br> 
 Last update 04/09/2016 
