@@ -60,6 +60,10 @@ cd RPiGpioController
 ## Configure credentials
 Change the access credentials
 ```
+<<<<<<< HEAD
+=======
+cd RPiGpioController
+>>>>>>> origin/master
 sudo nano php/info.php
 ```
 ```php
