@@ -1,4 +1,5 @@
 # RPi Gpio Controller
+![RPi Gpio Controller logo](https://github.com/danny270793/RPiGpioController/tree/master/images/raspberry.png)
 
 Project description:
 
@@ -53,18 +54,19 @@ Install git and clone the repository
 sudo apt-get install git
 cd /var/www/html
 sudo git clone https://github.com/danny270793/RPiGpioController.git
+cd RPiGpioController
 ```
 
 ## Configure credentials
 Change the access credentials
 ```
-sudo nano php/login.php
+sudo nano php/info.php
 ```
 ```php
 <?php
 	$user="admin";
 	$password="admin";
-?>
+    ...
 ```
 ## Test the Android application
 * Download [RPi Gpio Controller](https://play.google.com/store/apps/details?id=com.danny270793.rpigpiocontroller) from the google play store.
@@ -78,3 +80,7 @@ sudo nano php/login.php
 * [Instagram](https://www.instagram.com/danny27071993/)
 * [Youtube](https://www.youtube.com/channel/UC5MAQWU2s2VESTXaUo-ysgg)
 * [Github](https://github.com/danny270793/)
+
+## Version
+RPiGpioController version 2.4.9 
+Last update 04/09/2016 
