@@ -1,5 +1,5 @@
 # RPi Gpio Controller
-![RPi Gpio Controller logo](https://github.com/danny270793/RPiGpioController/tree/master/images/raspberry.png)
+![RPi Gpio Controller logo](http://vignette4.wikia.nocookie.net/minecraftpe/images/c/c0/Raspberry_Pi_logo.png/revision/latest?cb=20141028163023&path-prefix=es)
 
 Project description:
 
