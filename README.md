@@ -59,6 +59,8 @@ cd /var/www
  --- or ---
 cd /var/www/html
 ```
+Download the RïGpioController code
+```
 sudo git clone https://github.com/danny270793/RPiGpioController.git
 cd RPiGpioController
 ```
