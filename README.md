@@ -52,7 +52,13 @@ sudo /etc/init.d/apache2 restart
 Install git and clone the repository
 ```
 sudo apt-get install git
+```
+Depending on you Raspbian version you will find the DocumentRoot folder into a different location<br>
+```
+cd /var/www
+ --- or ---
 cd /var/www/html
+```
 sudo git clone https://github.com/danny270793/RPiGpioController.git
 cd RPiGpioController
 ```
