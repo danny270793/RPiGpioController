@@ -59,7 +59,7 @@ cd /var/www
  --- or ---
 cd /var/www/html
 ```
-Download the RïGpioController code
+Download the RpiGpioController code
 ```
 sudo git clone https://github.com/danny270793/RPiGpioController.git
 cd RPiGpioController
@@ -87,7 +87,8 @@ sudo nano php/info.php
 * [Facebook](https://www.facebook.com/danny.vaca.9655)
 * [Instagram](https://www.instagram.com/danny27071993/)
 * [Youtube](https://www.youtube.com/channel/UC5MAQWU2s2VESTXaUo-ysgg)
-* [Github](https://github.com/danny270793/)
+* [Github](https://www.github.com/danny270793/)
+* [LinkedIn](https://www.linkedin.com/in/danny270793)
 
 ## Version
 RPiGpioController version 2.4.9<br> 
