@@ -1,25 +1,25 @@
 <?php
         require_once("info.php");
-        $isset_user=isset($_POST["app_user"]);
-        $isset_password=isset($_POST["app_password"]);
-        $isset_pin=isset($_POST["pin"]);
-        $isset_state=isset($_POST["state"]);
+        $isset_user=isset($_POST[$appUser]);
+        $isset_password=isset($_POST[appPassword]);
+        $isset_pin=isset($_POST[$pin]);
+        $isset_state=isset($_POST[$pinState]);
         $response=array();
         if($isset_user&&$isset_password&&$isset_pin&&$isset_state){
-                $valid_user=$_POST["app_user"]==$user;
-                $valid_password=$_POST["app_password"]==$password;
+                $valid_user=$_POST[$appUser]==$user;
+                $valid_password=$_POST[$appPassword]==$password;
                 if($valid_user&&$valid_password){
-                        $pin=$_POST["pin"];
-                        $state=$_POST["state"];
-                        $response=exec("sudo python /var/www/html/RPiGpioController/pyton/write.py ".$pin." ".$state);
+                        $pinNumber=$_POST[$pin];
+                        $stateValue=$_POST[$pinState];
+                        $response=exec($writeUrl." ".$pinNumber." ".$stateValue);
                 }else{
-                        $response["state"]="2";
-                        $response["message"]="Invalid credentials.";
+                        $response[$state]=$invalidCredentials;
+                        $response[$message]=$invalidCredentialsMessage;
                         print(json_encode($response));
                 }
         }else{
-                $response["state"]="0";
-                $response["message"]="No credetials send.";
+                $response[$state]=$noCredetialsSend;
+                $response[$message]=$noCredetialsSendMessage;
                 print(json_encode($response));
         }
 ?>
