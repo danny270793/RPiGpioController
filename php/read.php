@@ -10,6 +10,7 @@
                 if($valid_user&&$valid_password){
                         $pinNumber=$_POST[$pin];
                         $response=exec($readUrl." ".$pinNumber);
+                        print($response);
                 }else{
                         $response[$state]=$invalidCredentials;
 			$response[$message]=$invalidCredentialsMessage;
