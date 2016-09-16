@@ -14,6 +14,6 @@ else:
         pin=Pin(pinNumber)
         pin.setMode(INPUT)
         state=pin.readState() 
-        print json.dumps({"state":okCode,"message":"State read","state":str(state)})
+        print json.dumps({"state":okCode,"message":"State read","pinState":str(state)})
     except Exception as exception:
         print json.dumps({"state":exceptionCode,"message":exception})
