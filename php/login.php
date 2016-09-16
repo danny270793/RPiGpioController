@@ -11,7 +11,7 @@
 			$response[$message]=$userLoggedMessage;
 		}else{
 			$response[$state]=$invalidCredentials;
-			$response[$message=$invalidCredentialsMessage;
+			$response[$message]=$invalidCredentialsMessage;
 		}
 	}else{
 		$response[$state]=$noCredetialsSend;
