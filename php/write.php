@@ -12,6 +12,7 @@
                         $pinNumber=$_POST[$pin];
                         $stateValue=$_POST[$pinState];
                         $response=exec($writeUrl." ".$pinNumber." ".$stateValue);
+                        print($response);
                 }else{
                         $response[$state]=$invalidCredentials;
                         $response[$message]=$invalidCredentialsMessage;
