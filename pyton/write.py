@@ -1,3 +1,4 @@
+from info import *
 import json,sys
 # check arguments
 if not len(sys.argv)==3:
