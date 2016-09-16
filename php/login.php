@@ -1,21 +1,21 @@
 <?php
 	require_once("info.php");
-	$isset_user=isset($_POST["app_user"]);
-	$isset_password=isset($_POST["app_password"]);
+	$isset_user=isset($_POST[$appUser]);
+	$isset_password=isset($_POST[$appPassword]);
 	$response=array();
 	if($isset_user&&$isset_password){
-		$valid_user=$_POST["app_user"]==$user;
-		$valid_password=$_POST["app_password"]==$password;
+		$valid_user=$_POST[$appUser]==$user;
+		$valid_password=$_POST[$appPassword]==$password;
 		if($valid_user&&$valid_password){
-			$response["state"]="1";
-			$response["message"]="User logged.";
+			$response[$state]=$userLogged;
+			$response[$message]=$userLoggedMessage;
 		}else{
-			$response["state"]="2";
-			$response["message"]="Invalid credentials.";
+			$response[$state]=$invalidCredentials;
+			$response[$message=$invalidCredentialsMessage;
 		}
 	}else{
-		$response["state"]="0";
-		$response["message"]="No credetials send.";
+		$response[$state]=$noCredetialsSend;
+		$response[$message]=$noCredetialsSendMessage;
 	}
 	print(json_encode($response));
 ?>
