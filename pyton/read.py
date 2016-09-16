@@ -3,7 +3,7 @@ import json,sys
 # check arguments
 if not len(sys.argv)==2:
     # invalid data size
-    print json.dumps({"state":invalidArgumentsCode,"message","invalid arguments number"})
+    print json.dumps({"state":invalidArgumentsCode,"message":"invalid arguments number"})
 else:
     # get data
     pinNumber=int(sys.argv[1])
