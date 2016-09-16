@@ -1,7 +1,7 @@
 <?php
         require_once("info.php");
         $isset_user=isset($_POST[$appUser]);
-        $isset_password=isset($_POST[appPassword]);
+        $isset_password=isset($_POST[$appPassword]);
         $isset_pin=isset($_POST[$pin]);
         $isset_state=isset($_POST[$pinState]);
         $response=array();
