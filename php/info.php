@@ -22,7 +22,7 @@
 		$pinState="state";
 
 	/* Url */
-		$getSystemInfoUrl="sudo python /var/www/html/RPiGpioController/pyton/getSystemInfo.py";
+		$getSystemInfoUrl="sudo python /var/www/html/RPiGpioController/python/getSystemInfo.py";
 		$readUrl="sudo python /var/www/html/RPiGpioController/python/read.py";
 		$writeUrl="sudo python /var/www/html/RPiGpioController/python/write.py";
 		$rebootUrl="sudo python /var/www/html/RPiGpioController/python/reboot.py";
