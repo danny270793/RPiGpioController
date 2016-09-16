@@ -23,8 +23,8 @@
 
 	/* Url */
 		$getSystemInfoUrl="sudo python /var/www/html/RPiGpioController/pyton/getSystemInfo.py";
-		$readUrl="sudo python /var/www/html/RPiGpioController/pyton/read.py";
-		$writeUrl="sudo python /var/www/html/RPiGpioController/pyton/write.py";
-		$rebootUrl="sudo python /var/www/html/RPiGpioController/pyton/reboot.py";
-		$shutdownUrl="sudo python /var/www/html/RPiGpioController/pyton/shutdown.py";
+		$readUrl="sudo python /var/www/html/RPiGpioController/python/read.py";
+		$writeUrl="sudo python /var/www/html/RPiGpioController/python/write.py";
+		$rebootUrl="sudo python /var/www/html/RPiGpioController/python/reboot.py";
+		$shutdownUrl="sudo python /var/www/html/RPiGpioController/python/shutdown.py";
 ?>
