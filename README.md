@@ -77,7 +77,7 @@ sudo nano php/info.php
     ...
 ```
 ## Test the Android application
-* Download [RPi Gpio Controller](https://play.google.com/store/apps/details?id=com.danny270793.rpigpiocontroller2) from the google play store.
+* Download [RPi Gpio Controller](https://play.google.com/store/apps/details?id=com.danny270793.rpigpiocontrol) from the google play store.
 * Login with your Raspberry IP address and the credentials previously configured.
 * See your Raspberry Pi information.
 * Shutdown and reboot your Raspberry remotely
@@ -91,5 +91,5 @@ sudo nano php/info.php
 * [LinkedIn](https://www.linkedin.com/in/danny270793)
 
 ## Version
-RPiGpioController version 2.4.9<br> 
+RPiGpioController version 2.0.16.09.16.19.30<br> 
 Last update 04/09/2016 
