@@ -49,9 +49,18 @@ sudo /etc/init.d/apache2 restart
 ```
 
 ## Download code
-Install git and clone the repository
+Install git to clone the repository
 ```
 sudo apt-get install git
+```
+Use the GPIO library to access to pins
+```
+sudo git clone https://github.com/danny270793/Gpio.git
+cd Gpio
+```
+Install the GPIO library
+```
+sudo python setup.py install
 ```
 Depending on you Raspbian version you will find the DocumentRoot folder into a different location<br>
 ```
