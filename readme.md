@@ -93,12 +93,17 @@ sudo nano php/info.php
 * Control the GPIO pins.
 
 ## Follow me
-* [Facebook](https://www.facebook.com/danny.vaca.9655)
-* [Instagram](https://www.instagram.com/danny27071993/)
-* [Youtube](https://www.youtube.com/channel/UC5MAQWU2s2VESTXaUo-ysgg)
-* [Github](https://www.github.com/danny270793/)
-* [LinkedIn](https://www.linkedin.com/in/danny270793)
+
+- [Youtube](https://www.youtube.com/channel/UC5MAQWU2s2VESTXaUo-ysgg)
+- [Github](https://www.github.com/danny270793/)
+- [LinkedIn](https://www.linkedin.com/in/danny270793)
+
+## LICENSE
+
+Licensed under the [MIT](license.md) License
 
 ## Version
-RPiGpioController version 2.0.16.09.16.19.30<br> 
-Last update 04/09/2016 
+
+RPiGpioController version 2.0.16.09.16.19.30
+
+Last update 04/09/2016
